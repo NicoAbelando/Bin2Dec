@@ -7,6 +7,9 @@
     <title>Bin2Dec</title>
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -16,18 +19,18 @@
             <h1 class="main__container-h1">Traductor de binario a decimal</h1>
 
             <p class="main__container-p">
-                <b>Ingrese un número en binario (0 y 1), que se lo traduzco a los números comunes de toda la vida.</b>
+                Ingrese un número en binario (0 y 1), que se lo traduzco a los números comunes de toda la vida.
             </p>
         
-            <input type="text" id="inp-bin" class="main__container-inp" placeholder="0110000011010001"></input>
-            <input type="text" id="inp-dec" class="main__container-inp" placeholder="Su número en decimal"></input>
+            <input type="text" id="inp-bin" class="main__container-inp" placeholder="ej: 0110000011010001"></input>
+            <input type="text" id="inp-dec" class="main__container-inp main__container-inp--second" placeholder="Su número en decimal" disabled></input>
         
-            <button id="btnTraslate" class="main__container-btn"><p>Traducir</p></button>
+            <button id="btnTraslate" class="main__container-btn">Traducir</button>
         </div>
     </main>
 
     <footer class="footer">
-        <p class="footer__p">Ejercicio obtenido de <a href="https://github.com/florinpop17/app-ideas/" class="footer__p-a" target="_blank">acá</a></p>
+        <p class="footer__p">Ejercicio obtenido de <a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Bin2Dec-App.md" class="footer__p-a" target="_blank">acá</a></p>
     </footer>
 
     <script src="index.js" type="text/javascript"></script>
